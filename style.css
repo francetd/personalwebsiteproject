@@ -1,0 +1,143 @@
+body{
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  margin: 0;
+  padding: 0;                     /* header code for every page */
+}
+
+.nav{
+  background-color:white;
+  color:black;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 20px 0;
+}
+.nav > li {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.nav > li > a{
+  text-decoration: none;
+  color:black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav > li > a:hover {
+  color: grey;
+}
+
+.logo{
+  color: #4d3300;
+  float: left;                             /* creation of logo on top of every page*/
+  font-size: 20pt;
+  font-family: 'Playfair Display',serif;
+}
+.logo > a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 40pt;                           /* subtitles/titles decomrations*/
+  text-align: center;
+}
+
+h2{
+  color: black;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:32pt;
+  text-align: center;
+  padding: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-style: dotted;
+}
+
+h3{
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: white;
+  font-size:15pt;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px;
+  display:inline-block;
+  border-style: dotted;
+}
+
+.demo{                                             /*paragraph styles, different depending on class and id*/
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15pt;
+}
+
+#demo2{
+  background-color: white;
+  color:black;
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15pt;
+}
+
+#demo3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15pt;
+}
+
+
+
+input{
+  color: black;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:12pt;
+  text-align: center;
+  padding: 10px;
+}                                                    /* Resume/Contact Page styles for contact me form*/
+
+label{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12pt;
+}
+
+button{font-family: 'Source Sans Pro', sans-serif;
+font-size: 12pt;}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;                        /*columns for projects webpage*/
+  width: 33.33%;
+  padding:10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+img {
+  border: 5px solid grey;                        /*for every image I wanted a border*/
+}
+mark {
+    background-color:#e6e6e6;                    /*for every highlight I wanted the color to be less dramatic*/
+}
