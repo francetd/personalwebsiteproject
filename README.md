@@ -43,6 +43,8 @@ Other than that, it is worthy to note that some minor issues exist within the pa
 
 This project is licensed under the [France D] License
 
-## Acknowledgments
+## Resources Used
 
 * https://www.w3schools.com
+* https://stackoverflow.com
+* My Professor's teachings :)
